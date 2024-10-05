@@ -1,0 +1,42 @@
+.App {
+  font-family: sans-serif;
+  text-align: center;
+}
+table {
+  width: 100%;
+  border-spacing: 0;
+}
+table thead {
+  background-color: rgb(46, 195, 143);
+  color: white;
+  text-transform: uppercase;
+}
+table,
+td {
+  border-bottom: 1px solid rgb(46, 195, 143);
+  padding: 5px;
+}
+table {
+  border-bottom: 1px solid rgb(46, 195, 143);
+}
+.pagination {
+  margin-top: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+}
+.pagination button {
+  border: none;
+  color: white;
+  background-color: rgb(46, 195, 143);
+  padding: 4px 10px;
+  border-radius: 2px;
+}
+.pagination span {
+  font-size: larger;
+  background-color: rgb(46, 195, 143);
+  padding: 3px 6px;
+  border-radius: 2px;
+  color: white;
+}
