@@ -54,7 +54,7 @@ export default function App() {
             handlePage(page - 1);
           }}
         >
-          Prev
+          Previous
         </button>
         <span>{page}</span>
         <button
